@@ -32,7 +32,7 @@
   max-width: 264px;
 }
 .footer-logo-box {
-  margin-right: 120px;
+  text-align: left;
 }
 .footer-social-box {
   margin-right: 83px;
@@ -169,12 +169,24 @@
   .footer-logo-box,
   .footer-social-box {
     margin: 0 0 72px;
+  }
+
+  .footer-logo-box {
+    text-align: left;
+  }
+
+  .footer-logo {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-social-box {
     text-align: center;
   }
 
   .footer-subscribe-box {
     margin: 0;
-    width: 100%;
+    text-align: center;
   }
 
   .footer-subscribe-form {
@@ -189,6 +201,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer {
+    padding: 96px 0;
+  }
+
   .footer .container {
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -196,17 +212,5 @@
     row-gap: 72px;
     padding-left: 108px;
     padding-right: 108px;
-  }
-
-  .footer-logo-box {
-    margin-right: 0;
-  }
-
-  .footer-social-box {
-    margin-right: 0;
-  }
-
-  .footer-subscribe-box {
-    margin-left: 0;
   }
 }

@@ -1,6 +1,6 @@
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
+  padding: 72px 0;
   max-width: 1440px;
   margin: 0 auto;
 
@@ -19,14 +19,14 @@
 }
 
 .hero-title {
-  max-width: 496px;
-  font-size: 56px;
+  max-width: 216px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 .hero-button {
@@ -87,6 +87,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+  }
+
   .hero {
     padding: 112px 0;
   }

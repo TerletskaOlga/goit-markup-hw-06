@@ -38,11 +38,6 @@ img {
   height: auto;
 }
 
-/* .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-} */
 .container {
   width: 100%;
   max-width: 320px;
@@ -52,7 +47,7 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 24px;
+    padding: 0 16px;
   }
 }
 
@@ -62,10 +57,6 @@ img {
     padding: 0 15px;
   }
 }
-
-/* .section {
-  padding: 120px 0;
-} */
 
 .section {
   padding: 96px 0;
