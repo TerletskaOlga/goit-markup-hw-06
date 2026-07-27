@@ -93,3 +93,43 @@
   background-color: #404bbf;
   border-radius: 2px;
 }
+
+@media screen and (max-width: 767px) {
+  .header-nav,
+  .header-address-list {
+    display: none;
+  }
+
+  .header .container {
+    min-height: 56px;
+  }
+
+  .logo {
+    padding: 16px 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header .container {
+    min-height: 72px;
+  }
+
+  .logo {
+    padding: 24px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .header-address-list {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .header-address-link {
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+}
