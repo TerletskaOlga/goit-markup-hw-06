@@ -159,13 +159,18 @@
   fill: currentColor;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .footer .container {
+    max-width: 584px;
     display: grid;
     grid-template-columns: 264px 1fr;
     column-gap: 24px;
     row-gap: 72px;
     align-items: start;
+  }
+
+  .footer .logo {
+    margin: 0 0 16px;
   }
 
   .footer-logo-box {
@@ -206,6 +211,14 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
+
+  .footer .logo {
+    margin: 0 0 16px;
+  }
+
   .footer .container {
     display: flex;
     flex-direction: row;
@@ -221,7 +234,7 @@
   .footer-social-box {
     margin-right: 80px;
     margin-bottom: 0;
-    padding-top: 24;
+    padding-top: 24px;
   }
 
   .footer-subscribe-box {
